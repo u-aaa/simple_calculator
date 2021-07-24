@@ -34,30 +34,34 @@ def test_exponent():
     assert calc.exponent(3) == 27
 
 def test_reset_memory():
-    """tests the Calculator exponent method"""
+    """tests the Calculator reset memory"""
     calc = Calculator(8)
     assert calc.reset_memory() == 0
 
 def test_memory_value():
-    """tests the Calculator exponent method"""
+    """tests the Calculator memory value"""
     calc = Calculator(8)
     assert calc.memory_value() == 8
 
 def test_not_a_positive_number_error():
+    """tests the Calculator error - not a positive number"""
     calc = Calculator(-4)
     with pytest.raises(NotAPositiveNumber):
         result = calc.n_root(2)
 
 def test_zero_division():
+    """tests the Calculator error - zero division"""
     calc = Calculator(4)
     with pytest.raises(ZeroDivisionError):
         result = calc.divide(0)
 
 def test_input_validation():
+    """tests the Calculator input validation"""
     calc = Calculator(3)
     with pytest.raises(NotANumber):
         result = calc.add('three')
 
 def test_input_validation_two():
+    """tests the Calculator error - not a number"""
     with pytest.raises(NotANumber):
         calc = Calculator('four')
