@@ -1,11 +1,11 @@
-##Table of contents
+## Table of contents
 * General Info
 * Usage
 * Technologies used
 * Acknowledgement
 * License
 
-##General Info
+## General Info
 This is a simple python package that can be used to perform the simple mathematical functions:
 * Addition
 * Subtraction
@@ -14,7 +14,7 @@ This is a simple python package that can be used to perform the simple mathemati
 * N-th root of number
 * Exponent
 
-##Usage
+## Usage
 This calculator can be used for basic mathematical operations. It also has a calculator memory.
 
 Sample Code
@@ -31,31 +31,31 @@ from calc import Calculator
 cal = Calculator()
 ```
 
-####Addition
+#### Addition
 ```python
 cal.add(4)
 
 #returns 4
 ```
-####Subtraction
+#### Subtraction
 ```python
 cal.subtract(1)
 
 #returns 3
 ```
-####Multiplication
+#### Multiplication
 ```python
 cal.multiply(2)
 
 #returns 6
 ```
-####Division
+#### Division
 ```python
 cal.divide(2)
 
 #returns 3
 ```
-####Memory
+#### Memory
 ```python
 cal.memory_value()
 
@@ -66,11 +66,11 @@ cal.reset_memory()
 
 #returns 0
 ```
-##Technologies used
+## Technologies used
 * Python version: 3.8
 
-##Acknowledgement
+## Acknowledgement
 This project was inspired by Turing College
 
-##License
+## License
 MIT 2021
