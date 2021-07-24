@@ -1,7 +1,7 @@
 import sys
 #sys.path.append("../src")
 import pytest
-from calculator.src.calculator import Calculator, NotANumber, NotAPositiveNumber
+from src.calculator import Calculator, NotANumber, NotAPositiveNumber
 
 def test_add():
     """tests the Calculator add method"""
