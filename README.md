@@ -19,14 +19,14 @@ This calculator can be used for basic mathematical operations. It also has a cal
 
 Sample Code
 ```python
-from calc import Calculator
+from calculator import Calculator
 
 cal = Calculator(4)
 #sets calculator memory to 4
 ```
 OR
 ```python
-from calc import Calculator
+from calculator import Calculator
 
 cal = Calculator()
 ```
